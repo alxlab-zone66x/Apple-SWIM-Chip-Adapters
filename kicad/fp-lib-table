@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "alxlab")(type "KiCad")(uri "${KIPRJMOD}/alxlab.pretty")(options "")(descr ""))
+  (lib (name "snapeda")(type "KiCad")(uri "${KIPRJMOD}/snapeda.pretty")(options "")(descr ""))
+)
