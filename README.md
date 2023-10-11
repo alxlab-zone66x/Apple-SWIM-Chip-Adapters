@@ -1,4 +1,4 @@
-<img src="docs/macintosh_portable_battery_adapter_v1.0_pcb_front.png" alt="Macintosh Portable Battery Adapter v1.0 PCB front" style="display: inline-block; width: 50%;" /><img src="docs/macintosh_portable_battery_adapter_v1.0_pcb_back.png" alt="Macintosh Portable Battery Adapter v1.0 PCB back" style="display: inline-block; width: 50%;" />
+<img src="docs/apple-swim-chip-plcc-28-to-dip-28-adapter.png" alt="Apple SWIM Chip PLCC-28 to DIP-28 Adapter" style="display: inline-block; width: 50%;" /><img src="docs/apple-swim-chip-plcc-44-to-dip-28-adapter.png" alt="Apple SWIM Chip PLCC-44 to DIP-28 Adapter" style="display: inline-block; width: 50%;" />
 
 # Apple SWIM Chip Adapters
 
@@ -8,29 +8,31 @@ The intention of the project was to allow me to use the PLCC-44 SWIM chip from m
 
 The PLCC-28 and DIP-28 SWIM chips have the exact same pin layout (i.e., pin 1 goes to pin 1, pin 2 to pin 2, etc). This means that PLCC-28 to DIP-28 adapter can be used with universal programmers as well.
 
- The pinouts of the SWIM chips was found in the [SWIM_Chip_User's_Reference](docs/info/SWIM_Chip_Users_Ref_198801.pdf). That 
+ The pinouts of the SWIM chips was found in the [SWIM_Chip_User's_Reference](docs/info/SWIM_Chip_Users_Ref_198801.pdf). 
+
+
 
 ## Bill of Materials
 
-### PLCC-28 to DIP-28 SWIM Chip Adapter
+### Apple SWIM Chip PLCC-28 to DIP-28  Adapter
 
-| Quantity | Description                                               | Designators | Product Number | Datasheet                                |
-| :------- | --------------------------------------------------------- | ----------- | -------------- | ---------------------------------------- |
-| 1        | Supercapacitor balancing IC.                              | U2          | PLCC-28-AT     | [pdf](docs/datasheets/ALD810025.pdf)     |
-| 28       | DIP pin                                                   |             | SHP-001        | [pdf](docs/datasheets/ALD810025.pdf)     |
-| 3        | 10F, 2.7V supercapacitor, 5mm lead spacing, 10mm diameter | C1,C2,C3    | TPL-10/10X30F  | [pdf](docs/datasheets/TPL-10_10X30F.pdf) |
-
+| Quantity | Description                  | Designators | Product Number | Datasheet                                        |
+| :------- | ---------------------------- | ----------- | -------------- | ------------------------------------------------ |
+| 1        | Supercapacitor balancing IC. | U2          | PLCC-28-AT     | [pdf](docs/datasheets/plcc-28-at-data-sheet.pdf) |
+| 28       | lead frame                   |             | SHP-001        | [pdf](docs/datasheets/SHP-001.pdf)               |
 
 
-### PLCC-44 to DIP-28 SWIM Chip Adapter
 
-All the same parts as v1.0 and v1.1 with the addition of the supercapacitor stuff. Use either the IC or the resistors but not both. You can use a supercapacitor with a different capacity, but if you use resistors for balancing, you'll probably need to recalculate the resistance value. Refer to this [PDF](docs/info/o671684v410%20ANP090a_EN.pdf) by Würth Elecktronik to do the calculation.
+### Apple SWIM Chip PLCC-44 to DIP-28 Adapter
 
-| Quantity | Description                                               | Designators | Product Number | Datasheet                                |
-| :------- | --------------------------------------------------------- | ----------- | -------------- | ---------------------------------------- |
-| 1        | Supercapacitor balancing IC.                              | U1          | ALD810025SCL   | [pdf](docs/datasheets/ALD810025.pdf)     |
-| 3        | 1/4W 9kOhm resistor (though-hole or 0805)                 | R1,R2,R3    |                |                                          |
-| 3        | 10F, 2.7V supercapacitor, 5mm lead spacing, 10mm diameter | C1,C2,C3    | TPL-10/10X30F  | [pdf](docs/datasheets/TPL-10_10X30F.pdf) |
+| Quantity | Description                  | Designators | Product Number | Datasheet                                        |
+| :------- | ---------------------------- | ----------- | -------------- | ------------------------------------------------ |
+| 1        | Supercapacitor balancing IC. | U2          | PLCC-44-AT     | [pdf](docs/datasheets/plcc-28-at-data-sheet.pdf) |
+| 28       | lead frame                   |             | SHP-001        | [pdf](docs/datasheets/SHP-001.pdf)               |
+
+
+
+The lead frame/dip pins are hard to find in North America. If you live Japan you can find the here https://akizukidenshi.com/catalog/g/gC-14182/. Alternatively you could use normal square or round header pins at the risk of damaging the socket.
 
 
 
@@ -39,16 +41,6 @@ All the same parts as v1.0 and v1.1 with the addition of the supercapacitor stuf
 The release includes the manufacturing files for JLCPCB specifically. If you need to the gerber files, BOM or component pick & place in a different format then you would have to generate them yourself.
 
 The PCB thickness chosen should be 1.6mm.
-
-
-
-## Pictures
-
-<img src="docs/macintosh_portable_battery_adapter_v1.0_stack_of_pcbs.jpg" style="display: inline-block; width: 33%;" alt="Macintosh Portable Battery Adapter v1.0 PCB stack" /><img src="docs/macintosh_portable_battery_adapter_v1.0_soldered_wires.jpg" style="display: inline-block; width: 33%;" alt="Macintosh Portable Battery Adapter v1.0 soldered wires" /><img src="docs/macintosh_portable_battery_adapter_v1.0_with_no_case.jpg" style="display: inline-block; width: 33%;" alt="Macintosh Portable Battery Adapter v1.0 without a case" /><img src="docs/macintosh_portable_battery_adapter_v1.0_case_top.jpg" style="display: inline-block; width: 33%; margin-right: auto;" alt="Macintosh Portable Battery Adapter v1.0 case top" /><img src="docs/macintosh_portable_battery_adapter_v1.0_case_angled.jpg" style="display: inline-block; width: 33%; margin-right: auto;" alt="Macintosh Portable Battery Adapter v1.0 case angled" /><img src="docs/macintosh_portable_battery_adapter_v1.2_pcb.jpg" style="display: inline-block; width: 33%; margin-right: auto;" alt="Macintosh Portable Battery Adapter v1.2 pcb" />
-
-
-
-
 
 
 
@@ -80,10 +72,3 @@ Join us in #skunkworks on [Discord](https://discord.gg/GKcvtgU7P9) to help make 
 
 
 
-
-
-
-
-## Attribution
-
-Macintosh Portable Battery Enclosure (M5137) by [StephenLulz](https://www.thingiverse.com/StephenLulz) is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
