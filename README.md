@@ -4,7 +4,7 @@
 
 This project is for a couple of chip adapters to convert the PLCC-28 and PLCC-44 Apple SWIM chips to DIP-28.
 
-The intention of the project was to allow me to use the PLCC-44 SWIM chip from my battery bombed Macintosh Classic into a Macintosh SE to give it 1.44MB floppy drive support.
+The intention of the project was to allow me to use the PLCC-44 SWIM chip from my battery bombed Macintosh Classic in a Macintosh SE to give it 1.44MB floppy drive support.
 
 The PLCC-28 and DIP-28 SWIM chips have the exact same pin layout (i.e., pin 1 goes to pin 1, pin 2 to pin 2, etc). This means that PLCC-28 to DIP-28 adapter can be used with universal programmers as well.
 
@@ -48,7 +48,7 @@ The PCB thickness chosen should be 1.6mm.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-Macintosh Portable Battery Adapter by [Alexandre Marcoux](https://github.com/alxlab-zone66x/Macintosh_Portable_Battery_Adapter) licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Macintosh Portable Battery Adapter by [Alexandre Marcoux](https://github.com/alxlab-zone66x/Apple-SWIM-Chip-Adapters) licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 
 
